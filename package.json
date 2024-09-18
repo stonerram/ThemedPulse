@@ -1,0 +1,31 @@
+{
+  "name": "themedpulse",
+  "version": "1.0.0",
+  "main": "CRUD.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js",
+    "react-scripts": "^5.0.1",
+    "typescript": "^4.9.5",
+    "node-cron": "^3.0.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@prisma/client": "^5.17.0",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.3",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "nodemailer": "^6.9.14",
+    "prisma": "^5.17.0"
+  }
+}
